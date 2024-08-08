@@ -126,6 +126,7 @@
 @media (max-width:500px) {
     .footer {
         gap: 15px;
+        padding: 0px;
     }
     .footer-logo {
         gap: 10px;
@@ -140,6 +141,7 @@
     .footer-links  {
         font-size: 12px;
         gap: 0px;
+        padding: 0px;
 
     }
     .footer-links li {

@@ -4,9 +4,6 @@
     justify-content: space-around ;
     align-items: center;
     margin-top: 10px;
-
-
-
 }
 .hero-left {
     display: flex;
@@ -153,14 +150,18 @@
         display: none;
     }
     .hero-left p {
-        font-size: 50px;
+        font-size: 40px;
     }
     .hero-hand-icon img {
-        width: 55px;
+        width: 40px;
     }
     .hero-latest-btn {
         width: 200px;
         height: 45px;
         font-size: 14px;
+    }
+    .hero-left {
+        padding: 0px;
+
     }
 }

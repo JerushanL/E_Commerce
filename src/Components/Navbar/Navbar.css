@@ -8,9 +8,16 @@
 }
 
 .nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.nav-logo-2{
     display: flex;
     align-items: center;
-    gap: 10px
+    gap: 10px;
+    justify-content: space-between;
 }
 .nav-logo p {
     color: #171717;
@@ -130,14 +137,14 @@
     }
 }
 
+
 @media only screen and (max-width:800px){
     .navbar{
         padding: 10px 0px;
     }
     .nav-dropdown {
       display: block;
-      width: 30px;
-      rotate: -90deg;
+      font-size: 25px;
       transition: 0.5s;
       
     }
@@ -146,17 +153,21 @@
         height: 80px;
         width: 100%;
         position: absolute;
-        /* background-color: white; */
+        background-color: rgb(255, 255, 255);
         justify-content: center;
         top: 50px;
-        transition: 0.5s;
+        /* transition: 0.5s; */
    
     }
     .nav-menu-visible {
         display: flex;
+
     }
-    .open {
-        transform: rotate(90deg);
+    .nav-menu-visible li {
+        color: white;
+    }
+    .nav-menu li {
+        color: white;
     }
 }
 
